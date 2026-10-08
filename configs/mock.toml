@@ -1,0 +1,20 @@
+# End-to-end test of the LLM path with a fake model CLI (no API calls).
+[run]
+deals = 5
+workers = 3
+out_dir = "runs/mock"
+seed = 3
+
+[[model]]
+name = "mock-a"
+command = ["python3", "tests/mock_llm.py"]
+cwd = "."
+
+[[model]]
+name = "mock-b"
+command = ["python3", "tests/mock_llm.py"]
+cwd = "."
+
+[[model]]
+name = "heuristic"
+bot = "heuristic:0.3"

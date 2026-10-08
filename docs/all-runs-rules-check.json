@@ -1,0 +1,22 @@
+[
+  {
+    "run": "runs/bots",
+    "games": 1200,
+    "structural_error_games": 0
+  },
+  {
+    "run": "runs/main",
+    "games": 92,
+    "structural_error_games": 0
+  },
+  {
+    "run": "runs/mock",
+    "games": 30,
+    "structural_error_games": 0
+  },
+  {
+    "run": "runs/pilot",
+    "games": 6,
+    "structural_error_games": 0
+  }
+]

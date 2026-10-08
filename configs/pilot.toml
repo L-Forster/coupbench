@@ -1,0 +1,43 @@
+# Pilot: one deal (4 games, one per seat rotation) with the models from main.toml,
+# to check the setup end to end before the full run.
+#
+# CLI models run `command` once per decision with the prompt on stdin and must
+# print a JSON object {"choice": N}. API models call an
+# OpenAI-compatible /chat/completions endpoint; `params` is merged into the body.
+# Needs MISTRAL_API_KEY and MIMO_API_KEY in the environment: `source .env` first.
+
+[run]
+deals = 1
+workers = 4            # games in parallel; calls in flight per model <= max_concurrency
+out_dir = "runs/pilot4"
+seed = 1
+
+[[model]]
+name = "claude-opus-5.5"
+# No tools, MCP servers, claude.ai connectors or user settings. Keep Claude Code's
+# default system prompt: with a custom system prompt the game prompt was refused.
+command = ["claude", "-p", "--model", "claude-opus-5-5", "--effort", "high", "--tools", "",
+           "--no-session-persistence", "--strict-mcp-config", "--setting-sources", ""]
+env = { ENABLE_CLAUDEAI_MCP_SERVERS = "false" }
+max_concurrency = 3
+timeout = 600
+
+[[model]]
+name = "gpt-6.1-sol"
+command = ["codex", "exec", "--skip-git-repo-check", "--ephemeral", "-s", "read-only", "--color", "never",
+           "-m", "gpt-6.1-sol", "-c", "model_reasoning_effort=\"high\"", "-"]
+max_concurrency = 3
+timeout = 600
+
+[[model]]
+name = "mistral-large-4"
+api = { base_url = "https://api.mistral.ai/v1", model = "mistral-large-4", key_env = "MISTRAL_API_KEY", params = { reasoning_effort = "high" } }
+max_concurrency = 3
+timeout = 600
+
+[[model]]
+name = "mimo-v2.6-pro"
+# Token Plan key (tp-...): regional endpoint token-plan-{ams,sgp,cn}. Pay-as-you-go keys use https://api.xiaomimimo.com/v1
+api = { base_url = "https://token-plan-ams.xiaomimimo.com/v1", model = "mimo-v2.6-pro", key_env = "MIMO_API_KEY", params = { thinking = { type = "enabled" } } }
+max_concurrency = 3
+timeout = 600

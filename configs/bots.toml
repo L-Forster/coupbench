@@ -1,0 +1,22 @@
+# Free sanity run: baseline bots only. Useful for checking the pipeline and
+# for having reference numbers to compare the LLMs against.
+[run]
+deals = 200
+workers = 4
+out_dir = "runs/bots"
+seed = 7
+
+[rules]
+parallel_polls = false
+
+[[model]]
+name = "honest"
+bot = "honest"
+
+[[model]]
+name = "heuristic"
+bot = "heuristic:0.3"
+
+[[model]]
+name = "random"
+bot = "random"

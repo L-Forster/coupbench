@@ -1,0 +1,4352 @@
+{
+  "run": "runs/main",
+  "games": 91,
+  "structural_error_games": 0,
+  "issues": {
+    "seat_priority": {
+      "occurrences": 137,
+      "games": [
+        "d0000_s00",
+        "d0000_s01",
+        "d0000_s03",
+        "d0001_s00",
+        "d0001_s03",
+        "d0002_s01",
+        "d0002_s02",
+        "d0002_s03",
+        "d0003_s00",
+        "d0003_s01",
+        "d0003_s02",
+        "d0003_s03",
+        "d0004_s00",
+        "d0004_s01",
+        "d0004_s02",
+        "d0004_s03",
+        "d0005_s03",
+        "d0006_s01",
+        "d0007_s00",
+        "d0007_s01",
+        "d0007_s02",
+        "d0007_s03",
+        "d0008_s00",
+        "d0008_s02",
+        "d0008_s03",
+        "d0009_s00",
+        "d0009_s01",
+        "d0009_s03",
+        "d0010_s00",
+        "d0010_s01",
+        "d0010_s02",
+        "d0010_s03",
+        "d0011_s00",
+        "d0011_s01",
+        "d0011_s02",
+        "d0011_s03",
+        "d0012_s01",
+        "d0012_s02",
+        "d0012_s03",
+        "d0013_s00",
+        "d0013_s01",
+        "d0013_s02",
+        "d0013_s03",
+        "d0014_s00",
+        "d0014_s02",
+        "d0014_s03",
+        "d0015_s02",
+        "d0015_s03",
+        "d0016_s00",
+        "d0016_s01",
+        "d0016_s02",
+        "d0017_s00",
+        "d0017_s01",
+        "d0017_s02",
+        "d0017_s03",
+        "d0018_s00",
+        "d0018_s01",
+        "d0018_s02",
+        "d0018_s03",
+        "d0019_s00",
+        "d0019_s02",
+        "d0020_s00",
+        "d0020_s01",
+        "d0020_s02",
+        "d0020_s03",
+        "d0021_s00",
+        "d0021_s02",
+        "d0021_s03",
+        "d0022_s00",
+        "d0022_s02",
+        "d0023_s03"
+      ]
+    },
+    "forced_proof": {
+      "occurrences": 425,
+      "games": [
+        "d0000_s00",
+        "d0000_s01",
+        "d0000_s02",
+        "d0000_s03",
+        "d0001_s00",
+        "d0001_s01",
+        "d0001_s02",
+        "d0001_s03",
+        "d0002_s00",
+        "d0002_s01",
+        "d0002_s02",
+        "d0002_s03",
+        "d0003_s00",
+        "d0003_s01",
+        "d0003_s02",
+        "d0003_s03",
+        "d0004_s00",
+        "d0004_s01",
+        "d0004_s02",
+        "d0004_s03",
+        "d0005_s00",
+        "d0005_s01",
+        "d0005_s02",
+        "d0005_s03",
+        "d0006_s00",
+        "d0006_s01",
+        "d0006_s02",
+        "d0006_s03",
+        "d0007_s00",
+        "d0007_s01",
+        "d0007_s02",
+        "d0007_s03",
+        "d0008_s00",
+        "d0008_s01",
+        "d0008_s02",
+        "d0008_s03",
+        "d0009_s01",
+        "d0009_s02",
+        "d0009_s03",
+        "d0010_s00",
+        "d0010_s01",
+        "d0010_s02",
+        "d0010_s03",
+        "d0011_s00",
+        "d0011_s01",
+        "d0011_s02",
+        "d0011_s03",
+        "d0012_s00",
+        "d0012_s01",
+        "d0012_s02",
+        "d0012_s03",
+        "d0013_s00",
+        "d0013_s01",
+        "d0013_s02",
+        "d0013_s03",
+        "d0014_s00",
+        "d0014_s01",
+        "d0014_s02",
+        "d0014_s03",
+        "d0015_s00",
+        "d0015_s01",
+        "d0015_s02",
+        "d0015_s03",
+        "d0016_s00",
+        "d0016_s01",
+        "d0016_s02",
+        "d0016_s03",
+        "d0017_s00",
+        "d0017_s01",
+        "d0017_s02",
+        "d0017_s03",
+        "d0018_s00",
+        "d0018_s01",
+        "d0018_s02",
+        "d0018_s03",
+        "d0019_s00",
+        "d0019_s01",
+        "d0019_s02",
+        "d0019_s03",
+        "d0020_s00",
+        "d0020_s01",
+        "d0020_s02",
+        "d0020_s03",
+        "d0021_s00",
+        "d0021_s01",
+        "d0021_s02",
+        "d0021_s03",
+        "d0022_s00",
+        "d0022_s02",
+        "d0023_s03"
+      ]
+    },
+    "elimination_coins": {
+      "occurrences": 230,
+      "games": [
+        "d0000_s00",
+        "d0000_s01",
+        "d0000_s02",
+        "d0000_s03",
+        "d0001_s00",
+        "d0001_s01",
+        "d0001_s02",
+        "d0001_s03",
+        "d0002_s00",
+        "d0002_s01",
+        "d0002_s02",
+        "d0002_s03",
+        "d0003_s00",
+        "d0003_s01",
+        "d0003_s02",
+        "d0003_s03",
+        "d0004_s00",
+        "d0004_s01",
+        "d0004_s02",
+        "d0004_s03",
+        "d0005_s00",
+        "d0005_s01",
+        "d0005_s02",
+        "d0005_s03",
+        "d0006_s00",
+        "d0006_s01",
+        "d0006_s02",
+        "d0006_s03",
+        "d0007_s00",
+        "d0007_s01",
+        "d0007_s02",
+        "d0007_s03",
+        "d0008_s00",
+        "d0008_s01",
+        "d0008_s02",
+        "d0008_s03",
+        "d0009_s00",
+        "d0009_s01",
+        "d0009_s02",
+        "d0009_s03",
+        "d0010_s00",
+        "d0010_s01",
+        "d0010_s02",
+        "d0010_s03",
+        "d0011_s00",
+        "d0011_s01",
+        "d0011_s02",
+        "d0011_s03",
+        "d0012_s00",
+        "d0012_s01",
+        "d0012_s02",
+        "d0012_s03",
+        "d0013_s00",
+        "d0013_s01",
+        "d0013_s02",
+        "d0013_s03",
+        "d0014_s00",
+        "d0014_s01",
+        "d0014_s02",
+        "d0014_s03",
+        "d0015_s00",
+        "d0015_s01",
+        "d0015_s02",
+        "d0015_s03",
+        "d0016_s00",
+        "d0016_s01",
+        "d0016_s02",
+        "d0016_s03",
+        "d0017_s00",
+        "d0017_s01",
+        "d0017_s02",
+        "d0017_s03",
+        "d0018_s01",
+        "d0018_s02",
+        "d0018_s03",
+        "d0019_s00",
+        "d0019_s01",
+        "d0019_s02",
+        "d0019_s03",
+        "d0020_s00",
+        "d0020_s01",
+        "d0020_s02",
+        "d0020_s03",
+        "d0021_s00",
+        "d0021_s01",
+        "d0021_s02",
+        "d0021_s03",
+        "d0022_s00",
+        "d0022_s02",
+        "d0023_s03"
+      ]
+    },
+    "assassin_refund": {
+      "occurrences": 14,
+      "games": [
+        "d0000_s03",
+        "d0005_s01",
+        "d0005_s02",
+        "d0006_s00",
+        "d0007_s01",
+        "d0009_s01",
+        "d0009_s02",
+        "d0013_s02",
+        "d0017_s01",
+        "d0018_s00",
+        "d0019_s01",
+        "d0019_s02",
+        "d0020_s00"
+      ]
+    },
+    "post_victory_exchange": {
+      "occurrences": 5,
+      "games": [
+        "d0001_s02",
+        "d0006_s01",
+        "d0007_s01",
+        "d0012_s03",
+        "d0016_s00"
+      ]
+    }
+  },
+  "details": [
+    {
+      "game_id": "d0000_s00",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0000_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 2
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0000_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 3,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0000_s03",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 2
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 10,
+          "player": "gpt-6.1-sol",
+          "survives": false
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 1
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 3
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0001_s00",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 3
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0001_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0001_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 2,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 2
+        },
+        {
+          "rule": "post_victory_exchange",
+          "turn": 10
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0001_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 5
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0002_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 14,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0002_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 9
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 12
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 16
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 17
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 17
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 17,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 18
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 18,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0002_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 4,
+          "coins": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 3
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0002_s03",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 13
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 3
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0003_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 4,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0003_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 12
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 14
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 14,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0003_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 4,
+          "coins": 2
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 15
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0003_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 6
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0004_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0004_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0004_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 13
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 13
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 14,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0004_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0005_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 17
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 17,
+          "coins": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 18,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0005_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 1
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 10,
+          "player": "mistral-large-4",
+          "survives": false
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 1
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 5
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0005_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 6
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 12,
+          "player": "claude-opus-5.5",
+          "survives": false
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0005_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0006_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 4
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 11,
+          "player": "mistral-large-4",
+          "survives": false
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 13
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0006_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 13
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 6
+        },
+        {
+          "rule": "post_victory_exchange",
+          "turn": 13
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0006_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 9
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0006_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 3
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 15
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 15,
+          "coins": 8
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0007_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 13
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 16
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0007_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 3,
+          "coins": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 7,
+          "player": "claude-opus-5.5",
+          "survives": true
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "post_victory_exchange",
+          "turn": 10
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0007_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0007_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 16
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 16,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 17
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 17,
+          "coins": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 18
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 18,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0008_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 3
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0008_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0008_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0008_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 4,
+          "coins": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0009_s00",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 15,
+          "coins": 1
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 16,
+          "coins": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 17,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0009_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 9,
+          "player": "mistral-large-4",
+          "survives": false
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 7
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0009_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 7
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 13,
+          "player": "mimo-v2.6-pro",
+          "survives": true
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 19,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 20
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0009_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 12
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 14
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 14,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0010_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 6
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0010_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0010_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0010_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 3
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0011_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 4,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0011_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0011_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 3,
+          "coins": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0011_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 5
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0012_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 14
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 15,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0012_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 5
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0012_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 8
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0012_s03",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 3
+        },
+        {
+          "rule": "post_victory_exchange",
+          "turn": 11
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0013_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0013_s01",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 13
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0013_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 13,
+          "player": "claude-opus-5.5",
+          "survives": false
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 1
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 15,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0013_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 2
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 5
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0014_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 6
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0014_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 19
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 19,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0014_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0014_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0015_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 16
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 16,
+          "coins": 3
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0015_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 16,
+          "coins": 3
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 18,
+          "coins": 6
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0015_s02",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 11
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 19,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 22
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0015_s03",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0016_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 13
+        },
+        {
+          "rule": "post_victory_exchange",
+          "turn": 13
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0016_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0016_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 6
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0016_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 18
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0017_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 2
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0017_s01",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 10
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 10,
+          "player": "mistral-large-4",
+          "survives": false
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 17
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 17,
+          "coins": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 18,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0017_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 13
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0017_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 1
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0018_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 11
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 11,
+          "player": "mistral-large-4",
+          "survives": false
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 12,
+          "player": "mimo-v2.6-pro",
+          "survives": false
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0018_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 1
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 15,
+          "coins": 5
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0018_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0018_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 13
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 13
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 2
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 3
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0019_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 11
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0019_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 15,
+          "player": "mistral-large-4",
+          "survives": false
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 18,
+          "coins": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 21
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 21,
+          "coins": 3
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0019_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 8
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 2
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 10,
+          "player": "claude-opus-5.5",
+          "survives": false
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0019_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0020_s00",
+      "findings": [
+        {
+          "rule": "seat_priority",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 4,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "assassin_refund",
+          "turn": 9,
+          "player": "claude-opus-5.5",
+          "survives": false
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0020_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 4,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 4,
+          "coins": 2
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 5,
+          "coins": 5
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0020_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 3
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 10,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0020_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 4,
+          "coins": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0021_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0021_s01",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 6
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 15,
+          "coins": 3
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0021_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 4
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 4
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0021_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 5
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 3
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0022_s00",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 4
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 6
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 6,
+          "coins": 5
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 11,
+          "coins": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 15
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 15,
+          "coins": 1
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0022_s02",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 2
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 9,
+          "coins": 5
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 10
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 12
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 12,
+          "coins": 9
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 13,
+          "coins": 2
+        }
+      ],
+      "structural_errors": []
+    },
+    {
+      "game_id": "d0023_s03",
+      "findings": [
+        {
+          "rule": "forced_proof",
+          "turn": 3
+        },
+        {
+          "rule": "seat_priority",
+          "turn": 7
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 7
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 7,
+          "coins": 1
+        },
+        {
+          "rule": "forced_proof",
+          "turn": 8
+        },
+        {
+          "rule": "elimination_coins",
+          "turn": 8,
+          "coins": 5
+        }
+      ],
+      "structural_errors": []
+    }
+  ],
+  "limits": "Historical unversioned runs only. Checks mechanics, not unseen player intentions or counterfactual winners. All lacked voluntary concession and negotiation. Seat-priority counts are observed conflicts, not proven outcome changes."
+}

@@ -1,0 +1,23 @@
+# Secrets: API keys live in .env (see .env.example). Never commit them.
+.env
+.env.*
+!.env.example
+
+# Tournament output: game logs, partial logs, summaries, charts
+runs/
+*.partial.jsonl
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
