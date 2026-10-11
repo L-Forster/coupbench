@@ -2,6 +2,71 @@
 
 LLMs play Coup against each other. Measures who wins and how much they lie.
 
+## Results
+
+First run, October 2026: Claude Opus 5.5, GPT-6.1 Sol, Mistral Large 4 and
+MiMo V2.6 Pro, all on high reasoning, players anonymised. 96 four-player games,
+83 used.
+
+- **The top three are tied; Mistral is clearly last.** MiMo, Claude and GPT win
+  29–30% of games (chance is 25%). Mistral wins 12%.
+- **GPT lies the most.** 30% of its claims are bluffs, against 15% for Claude
+  and 9% for MiMo and Mistral.
+- **Most models can't tell when they're being lied to.** Only Claude clearly
+  challenges lies more often than true claims (41% vs 25%). Mistral (37% vs
+  37%) and GPT (20% vs 18%) are no better than guessing.
+- **Models mostly knock themselves out.** 72% of all cards lost were lost by
+  challenging someone who was telling the truth.
+
+![Elo ratings](docs/charts/1_elo.png)
+
+| Model | Elo (95% CI) | Win rate (95% CI) | p vs chance | Mean place (95% CI) |
+|---|---|---|---|---|
+| MiMo V2.6 Pro | 1557 (1519–1600) | 30% (21%–41%) | 0.310 | 2.19 (1.97–2.41) |
+| Claude Opus 5.5 | 1537 (1500–1579) | 29% (20%–39%) | 0.447 | 2.30 (2.08–2.52) |
+| GPT-6.1 Sol | 1528 (1484–1575) | 29% (20%–39%) | 0.447 | 2.35 (2.09–2.59) |
+| Mistral Large 4 | 1378 (1337–1416) | 12% (7%–21%) | 0.005 | 3.16 (2.96–3.34) |
+
+### Lying
+
+![Bluff rate by model](docs/charts/2_lying.png)
+
+| Model | Claims/game | Bluff rate | Action bluffs | Block bluffs | Bluffs caught | Out via caught bluff |
+|---|---|---|---|---|---|---|
+| MiMo V2.6 Pro | 2.8 | 9% | 9% | 9% | 67% | 9 |
+| Claude Opus 5.5 | 2.7 | 15% | 14% | 20% | 47% | 11 |
+| GPT-6.1 Sol | 4.0 | 30% | 29% | 31% | 61% | 30 |
+| Mistral Large 4 | 1.9 | 9% | 10% | 6% | 79% | 10 |
+
+![Bluff rate by claimed card](docs/charts/5_bluff_by_card.png)
+
+### Lie detection
+
+![Challenge rate on lies vs true claims](docs/charts/3_lie_detection.png)
+
+| Model | Challenge rate | Challenge accuracy | Bluffs let pass | Out via failed challenge |
+|---|---|---|---|---|
+| MiMo V2.6 Pro | 29% | 23% | 65% | 38 |
+| Claude Opus 5.5 | 28% | 26% | 59% | 41 |
+| GPT-6.1 Sol | 19% | 9% | 80% | 27 |
+| Mistral Large 4 | 37% | 17% | 63% | 54 |
+
+![How each model lost its cards](docs/charts/4_cards_lost.png)
+
+### Play style
+
+![Share of turns spent on each action](docs/charts/6_play_style.png)
+
+### Caveat
+
+This run was played on an earlier version of the rules, before the
+[audit](docs/rules-audit.md). In that version a caught Assassin bluff did not
+get its coins back, challenge ties went by seat order, claimants could not
+concede, there was no table talk, and a model call that failed every retry was
+replaced by a random move (those 13 games were left out of the results). The
+audit lists the other differences. The current code will not reproduce these
+numbers exactly.
+
 ## Quick start
 
 ```bash
@@ -86,17 +151,6 @@ places; they only compare the models within that run. `analyze` writes `summary.
 With a handful of models, "lying vs winning" is descriptive, not a
 correlation. The bot baselines (`honest`, `heuristic:<bluff rate>`, `random`)
 give reference points; mixing one into a run costs nothing.
-
-## Results
-
-The first run (October 2026: Claude Opus 5.5, GPT-6.1 Sol, Mistral Large 4,
-MiMo V2.6 Pro; 96 games, 83 used) was played on an earlier version of the
-rules, before the [audit](docs/rules-audit.md). In that version a caught
-Assassin bluff did not get its coins back, challenge ties went by seat order,
-claimants could not concede, there was no table talk, and a model call that
-failed every retry was replaced by a random move (those 13 games were left out
-of the results). The audit lists the other differences. The current code will
-not reproduce those numbers exactly.
 
 ## Layout
 
